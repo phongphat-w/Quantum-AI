@@ -58,4 +58,4 @@ smart_building_rl/
 ### **Required Libraries**
 Install the required libraries:
 ```bash
-pip install qiskit cirq pulser pennylane numpy
+pip install -r requirements.txt
