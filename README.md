@@ -11,6 +11,7 @@ The goal is to compare the performance of quantum policies in an RL environment 
 ---
 
 ## **Project Structure**
+```
 smart_building_rl/
 ├── environment/
 │   ├── __init__.py
@@ -25,7 +26,7 @@ smart_building_rl/
 │   ├── __init__.py
 │   ├── policy_comparator.py        # RL loop to evaluate and compare policies
 ├── main.py                         # Main entry point for the project
-
+```
 ---
 
 ## **Features**
@@ -51,7 +52,7 @@ smart_building_rl/
 ## **Installation**
 
 ### **Prerequisites**
-- Python 3.8 or higher
+- Python 3.11 or higher
 - pip
 
 ### **Required Libraries**
