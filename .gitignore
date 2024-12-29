@@ -28,6 +28,7 @@ backend/migrations/
 logs/
 
 # Ignore Python bytecode files
+*.ipynb
 *.pyc
 *.pyo
 __pycache__/
