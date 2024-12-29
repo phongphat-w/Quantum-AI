@@ -2,7 +2,7 @@
 
 This project implements a **Reinforcement Learning (RL)** system for optimizing smart building operations using quantum-enhanced policies. It evaluates four quantum computing libraries:
 - **IBM Qiskit**
-- **Google Quantum AI (Cirq)**
+- **Google Cirq**
 - **Pasqal Pulser**
 - **Xanadu PennyLane**
 
