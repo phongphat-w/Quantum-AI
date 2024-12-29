@@ -11,8 +11,20 @@ The goal is to compare the performance of quantum policies in an RL environment 
 ---
 
 ## **Project Structure**
-smart_building_rl/ ├── environment/ │ ├── init.py │ ├── smart_building_env.py # Environment class ├── policies/ │ ├── init.py │ ├── qiskit_policy.py # IBM Qiskit policy │ ├── cirq_policy.py # Google Cirq policy │ ├── pulser_policy.py # Pasqal Pulser policy │ ├── pennylane_policy.py # Xanadu PennyLane policy ├── utils/ │ ├── init.py │ ├── policy_comparator.py # RL loop to evaluate and compare policies ├── main.py # Main entry point for the project
-
+smart_building_rl/
+├── environment/
+│   ├── __init__.py
+│   ├── smart_building_env.py       # Environment class
+├── policies/
+│   ├── __init__.py
+│   ├── qiskit_policy.py            # IBM Qiskit policy
+│   ├── cirq_policy.py              # Google Cirq policy
+│   ├── pulser_policy.py            # Pasqal Pulser policy
+│   ├── pennylane_policy.py         # Xanadu PennyLane policy
+├── utils/
+│   ├── __init__.py
+│   ├── policy_comparator.py        # RL loop to evaluate and compare policies
+├── main.py                         # Main entry point for the project
 
 ---
 
